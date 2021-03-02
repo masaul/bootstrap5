@@ -41,6 +41,7 @@
   Foto diubah menjadi lingkaran dengan menggunakan class rounded-circle
   layanan website squoosh.app untuk mengkompress ukuran foto agar ringan di website.
   untuk menambahkan border. bisa menambahkan class img-thumbnail
+  upload img online di i.ibb.co
   refrensi      = https://getbootstrap.com/docs/5.0/content/images/
   
   
