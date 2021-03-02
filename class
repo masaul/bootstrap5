@@ -8,11 +8,14 @@
   ++ bagian tag nav ++
   background bisa diganti dengan css kita, dengan cara <nav class="navbar navbar-expand-lg navbar-light bg-light"> bg-light dihapus diganti dengan style="background-color: #00000"
   untuk navbar-light. namanya light itu pasti terang. tapi ini kebalikannya. light itu menjadi gelap dan jika dark menjadi terang fontnya.
+  untuk menambahkan bayangan bisa ditambahkan shadow. disini saya memakai shadow yg sm atau small.
+  
   bg            = untuk tag class bacground
   bg-***        = untuk mengganti warnanya.
   navbar-light  = font menjadi gelap.
   navbar-dark   = font menjadi terang.
   refrensi ***  = https://getbootstrap.com/docs/5.0/utilities/background/
+  refrensi shadow = https://getbootstrap.com/docs/5.0/utilities/shadows/
   
   ++ bagian div ++
   Jika ingin agak menengahkan tulisan. maka hapus saja tulisan fluid yang ada di bagian div class="container-fluid". sehingga menjadi div class="container".
@@ -24,6 +27,40 @@
   s             = untuk margin/padding left/right
   ms-auto       = margin auto. dan akan pindah ke kanan.
   refrensi = https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding
+  
+  
+  ==== Bagian Profil ==== 
+  Disini / bootstrap biasanya disebut dengan jumbotron. tpi hanya ada di bootstrap 4. maka dari itu harus pindah dulu ke bootstrap 4.
+  refrensi jumbotron = https://getbootstrap.com/docs/4.6/components/jumbotron/
+  
+  ++ bagian CSS saya ++
+  membuat CSS sendiri ada padding dan background color. Yang di selector adalah jumotronnya.
+  padding : 2rem 1rem.
+  
+  ++ bagian img ++
+  Foto diubah menjadi lingkaran dengan menggunakan class rounded-circle
+  layanan website squoosh.app untuk mengkompress ukuran foto agar ringan di website.
+  untuk menambahkan border. bisa menambahkan class img-thumbnail
+  refrensi      = https://getbootstrap.com/docs/5.0/content/images/
+  
+  
+  ==== bagian About ====
+  Untuk membuat background yanng bergelombang bisa mengunjungi website https://getwaves.io/. dan di setting sendiri sesuai keinginan. setelah itu copy code nya dan simpan disalam jumbotron
+  
+  ++ bagian layout ++
+  kemudian membuat section dengan id="about"
+  membuat layout grinya. memilih yang 3
+  kemudian untuk membesarkan font. menggunakan font size 
+  col-sm/**/**/** = setelah col untuk menentukan respnsivnya
+  mb            = margin bottomnya kemudian diikuti dengan nilainya syntax(-nilai)
+  fs            = font sizenya kemudian diikuti dengan nilainya syntax(-nilai)
+  refrensi      = https://getbootstrap.com/docs/5.0/layout/grid/
+  refrensi kolom = https://getbootstrap.com/docs/5.0/layout/columns/
+  refrensi font = https://getbootstrap.com/docs/5.0/utilities/text/#font-size
+  
+  
+  
+  
   
   
   
