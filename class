@@ -1,0 +1,33 @@
+  text-center   = untuk memindahkan text ketengah
+  text-start    = untuk memindahkan text kesebalh kiri
+  text-end      = untuk memindahkan text kesebelah kanan
+  
+  untuk membuat warna. masuk di utility kemudian color. disitu ada format colornya.
+  
+  ==== bagian navbar ====
+  ++ bagian tag nav ++
+  background bisa diganti dengan css kita, dengan cara <nav class="navbar navbar-expand-lg navbar-light bg-light"> bg-light dihapus diganti dengan style="background-color: #00000"
+  untuk navbar-light. namanya light itu pasti terang. tapi ini kebalikannya. light itu menjadi gelap dan jika dark menjadi terang fontnya.
+  bg            = untuk tag class bacground
+  bg-***        = untuk mengganti warnanya.
+  navbar-light  = font menjadi gelap.
+  navbar-dark   = font menjadi terang.
+  refrensi ***  = https://getbootstrap.com/docs/5.0/utilities/background/
+  
+  ++ bagian div ++
+  Jika ingin agak menengahkan tulisan. maka hapus saja tulisan fluid yang ada di bagian div class="container-fluid". sehingga menjadi div class="container".
+  
+  ++  bagian ul ++
+  mengganti menu kesebalah kanan, maka menggunakan class "ms-auto"
+  m             = untuk margin
+  p             = untuk padding
+  s             = untuk margin/padding left/right
+  ms-auto       = margin auto. dan akan pindah ke kanan.
+  refrensi = https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding
+  
+  
+  
+  
+  
+  
+  
