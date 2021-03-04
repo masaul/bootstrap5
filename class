@@ -1,3 +1,5 @@
+ 
+  
   text-center   = untuk memindahkan text ketengah
   text-start    = untuk memindahkan text kesebalh kiri
   text-end      = untuk memindahkan text kesebelah kanan
@@ -14,7 +16,9 @@
   bg-***        = untuk mengganti warnanya.
   navbar-light  = font menjadi gelap.
   navbar-dark   = font menjadi terang.
+  fixed-top ****= agar menu tetap berada di atas tidak ikut geser. akan tetapi gambar yg dibawahnya ikut ketas. maka dari itu ditambahin padding di css saya
   refrensi ***  = https://getbootstrap.com/docs/5.0/utilities/background/
+  refrensi****  = https://getbootstrap.com/docs/5.0/components/navbar/#placement
   refrensi shadow = https://getbootstrap.com/docs/5.0/utilities/shadows/
   
   ++ bagian div ++
@@ -36,6 +40,8 @@
   ++ bagian CSS saya ++
   membuat CSS sendiri ada padding dan background color. Yang di selector adalah jumotronnya.
   padding : 2rem 1rem.
+  tanda . untuk select class
+  tanda # untuk select id
   
   ++ bagian img ++
   Foto diubah menjadi lingkaran dengan menggunakan class rounded-circle
@@ -60,12 +66,36 @@
   refrensi font = https://getbootstrap.com/docs/5.0/utilities/text/#font-size
   
   
+  ==== bagian Community ====
+  untuk mencari gambar bisa mengunjungi unspalsh.com
+  ++ bagian gambar dan title ++
+  justify-content-center = untuk menengahkan gambar
+  justify-content-evently = untuk menengahkan gambar antara spasi yang diatasnya
+  
+  refrensi : https://getbootstrap.com/docs/5.0/layout/columns/
+  refrensi : https://getbootstrap.com/docs/5.0/components/card/
+  
+  ++ bagian responsife ++
+  refrensi : https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  
+  ==== bagian contact ====
+  ++ bagian nama dan email ++
+  yang perlu diganti dibagian kotak adalah for, type, id, aria-describedby. diganti sesuai kebutuhan.
+  refrensi : https://getbootstrap.com/docs/5.0/forms/overview/
+  
+  ++ bagian textarea ++
+  yang perlu diganti dibagian kotak adalah for dan id. diganti sesuai kebutuhan.
+  refrensi : https://getbootstrap.com/docs/5.0/forms/form-control/
   
   
+  ==== bagian footer ====
+   ++ bagian tebal text ++
+   refrensi : https://getbootstrap.com/docs/5.0/utilities/text/#font-weight-and-italics
+   
+   ++ membuat icon ++
+   refrensi : https://icons.getbootstrap.com/
+   CDN : <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+   contoh cara memakai : <i class="bi-alarm"></i>
   
   
-  
-  
-  
-  
-  
+  ==== bagian java script ====
